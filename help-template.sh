@@ -16,3 +16,21 @@ then
 fi
 
 
+######################################
+# Help Function                      #
+# Add or remove any additional args  #
+######################################
+Help()
+{
+   # Display Help
+   echo "Put a description of the functions here"
+   echo ""
+   echo "Syntax: scriptName [-g|h|v|V]"
+   echo "options:"
+   echo "g     Print the GPL license notification."
+   echo "h     Print this Help."
+   echo "v     Verbose mode."
+   echo "V     Print software version and exit."
+   echo ""
+}
+
